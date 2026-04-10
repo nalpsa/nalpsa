@@ -1,16 +1,56 @@
-## Hi there 👋
+<h1 align="center">Olá 👋, eu sou o Fabio G. Nunes</h1>
 
-<!--
-**nalpsa/nalpsa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <strong>🇧🇷 Desenvolvedor & Head de TI</strong><br/>
+  PHP · Vue.js · Flutter · C#/.NET · Automação · Infraestrutura
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://fgndev.com.br">🌐 fgndev.com.br</a> •
+  <a href="https://www.linkedin.com/in/fabio-g-nunes/">💼 LinkedIn</a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🧑‍💻 Sobre mim
+
+- 🏢 Head de TI na **MPCN Projetos e Contabilidade**
+- 🔧 Gestão de infraestrutura: pfSense, MikroTik, VPN, Docker Swarm
+- 📱 Desenvolvimento mobile com **Flutter**
+- 🖥️ Backend com **PHP** (Clean Architecture, SOLID) e **C#/.NET**
+- 🎨 Frontend com **Vue.js 3**
+- 🏠 Entusiasta de automação residencial (ESP8266, Raspberry Pi)
+
+---
+
+### 📊 Contribuições 3D
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/3d-contrib/profile-green-animate.svg" />
+  <img alt="3D Contributions" src="./profile/3d-contrib/profile-green-animate.svg" />
+</picture>
+
+---
+
+### 📈 GitHub Stats
+
+<div align="center">
+  <img src="./profile/stats.svg" alt="GitHub Stats" />
+  <br/>
+  <img src="./profile/top-langs.svg" alt="Top Languages" />
+</div>
+
+---
+
+### 🔤 Linguagens (repos públicos + privados)
+
+<div align="center">
+  <img src="./stats/donut_by_lines.png" alt="Language Donut" />
+</div>
+
+---
+
+<p align="center">
+  <i>⚡ Gerado automaticamente por GitHub Actions</i>
+</p>

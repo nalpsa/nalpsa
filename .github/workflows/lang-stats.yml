@@ -1,0 +1,31 @@
+name: Update Language Stats
+
+on:
+  schedule:
+    - cron: "0 7 * * *" # Roda todo dia às 04h BRT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: stefvuck/github-profile-language-analytics@v1.1.0
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          visualization_types: "leaderboard bar donut"
+          output_path: "stats"
+          exclude_languages: "Markdown"
+          dark_mode: "true"
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add stats/
+          git commit -m "chore: update lang stats" || exit 0
+          git push
