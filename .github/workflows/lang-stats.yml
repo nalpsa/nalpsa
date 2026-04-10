@@ -14,30 +14,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: StefVuck/Github-Language-Stats@v1.1.0
+      - name: Generate top langs card
+        uses: readme-tools/github-readme-stats-action@v1
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
-          visualization_types: "leaderboard bar donut"
-          output_path: "stats"
-          exclude_languages: "Markdown"
-          dark_mode: "true"
+          card: top-langs
+          options: username=nalpsa&layout=donut&theme=tokyonight&langs_count=20&locale=pt-br
+          path: stats/top-langs-donut.svg
+          token: ${{ secrets.GH_TOKEN }}
 
-      - name: Debug - list files
-        run: |
-          echo "=== Workspace root ==="
-          ls -la
-          echo "=== Stats folder ==="
-          ls -la stats/ || echo "stats/ not found"
-          echo "=== Git status ==="
-          git status
+      - name: Generate top langs compact
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=nalpsa&layout=compact&theme=tokyonight&langs_count=10&locale=pt-br
+          path: stats/top-langs-compact.svg
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A
-          git status
-          git commit -m "chore: update lang stats" || echo "Nothing to commit"
-          git push || echo "Nothing to push"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          git add stats/
+          git commit -m "chore: update lang stats" || exit 0
+          git push
