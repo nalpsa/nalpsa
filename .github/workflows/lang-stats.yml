@@ -2,7 +2,7 @@ name: Update Language Stats
 
 on:
   schedule:
-    - cron: "0 7 * * *" # Roda todo dia às 04h BRT
+    - cron: "0 7 * * *"
   workflow_dispatch:
 
 permissions:
@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: stefvuck/github-profile-language-analytics@v1.1.0
+      - uses: StefVuck/Github-Language-Stats@v1.1.0
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           visualization_types: "leaderboard bar donut"
