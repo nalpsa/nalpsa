@@ -26,7 +26,6 @@ Lidero a TI da **MPCN Projetos e Contabilidade**, cuidando de toda infraestrutur
 [![PYTHON](https://skillicons.dev/icons?i=python)](https://python.org)
 [![PHP](https://skillicons.dev/icons?i=php)](https://www.php.net/)
 [![Vue.js](https://skillicons.dev/icons?i=vue)](https://vuejs.org/)
-[![CSS](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 **Infraestrutura & DevOps**
 
