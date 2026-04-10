@@ -17,8 +17,6 @@ Lidero a TI da **MPCN Projetos e Contabilidade**, cuidando de toda infraestrutur
 
 **Linguagens & Frameworks**
 
-[![PHP](https://skillicons.dev/icons?i=php)](https://www.php.net/)
-[![Vue.js](https://skillicons.dev/icons?i=vue)](https://vuejs.org/)
 [![Flutter](https://skillicons.dev/icons?i=flutter)](https://flutter.dev/)
 [![Dart](https://skillicons.dev/icons?i=dart)](https://dart.dev/)
 [![C#](https://skillicons.dev/icons?i=cs)](https://dotnet.microsoft.com/)
@@ -26,6 +24,8 @@ Lidero a TI da **MPCN Projetos e Contabilidade**, cuidando de toda infraestrutur
 [![JavaScript](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://skillicons.dev/icons?i=ts)](https://www.typescriptlang.org/)
 [![HTML](https://skillicons.dev/icons?i=python)](https://python.org)
+[![PHP](https://skillicons.dev/icons?i=php)](https://www.php.net/)
+[![Vue.js](https://skillicons.dev/icons?i=vue)](https://vuejs.org/)
 [![CSS](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 **Infraestrutura & DevOps**
@@ -36,7 +36,7 @@ Lidero a TI da **MPCN Projetos e Contabilidade**, cuidando de toda infraestrutur
 [![Cloudflare](https://skillicons.dev/icons?i=cloudflare)](https://www.cloudflare.com/)
 [![Jenkins](https://skillicons.dev/icons?i=jenkins)](https://www.jenkins.io/)
 [![Nginx](https://skillicons.dev/icons?i=nginx)](https://nginx.org/)
-[![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com/)
+[![Git](https://skillicons.dev/icons?i=sonarqube)](https://sonarsource.com/)
 [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/)
 
 **Ferramentas & Banco de Dados**
