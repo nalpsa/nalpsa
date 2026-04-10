@@ -36,7 +36,7 @@ Lidero a TI da **MPCN Projetos e Contabilidade**, cuidando de toda infraestrutur
 [![Cloudflare](https://skillicons.dev/icons?i=cloudflare)](https://www.cloudflare.com/)
 [![Jenkins](https://skillicons.dev/icons?i=jenkins)](https://www.jenkins.io/)
 [![Nginx](https://skillicons.dev/icons?i=nginx)](https://nginx.org/)
-[![SonarQube](https://www.fgndev.com.br/assets/images/sonar.png)](https://www.sonarsource.com/)
+<a href="https://www.sonarsource.com/"><img src="https://www.fgndev.com.br/assets/images/sonar.png" width="48" height="48" alt="SonarQube" /></a>
 [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/)
 
 **Ferramentas & Banco de Dados**
