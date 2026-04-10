@@ -23,7 +23,7 @@ Lidero a TI da **MPCN Projetos e Contabilidade**, cuidando de toda infraestrutur
 [![.NET](https://skillicons.dev/icons?i=dotnet)](https://dotnet.microsoft.com/)
 [![JavaScript](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://skillicons.dev/icons?i=ts)](https://www.typescriptlang.org/)
-[![HTML](https://skillicons.dev/icons?i=python)](https://python.org)
+[![PYTHON](https://skillicons.dev/icons?i=python)](https://python.org)
 [![PHP](https://skillicons.dev/icons?i=php)](https://www.php.net/)
 [![Vue.js](https://skillicons.dev/icons?i=vue)](https://vuejs.org/)
 [![CSS](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -36,7 +36,7 @@ Lidero a TI da **MPCN Projetos e Contabilidade**, cuidando de toda infraestrutur
 [![Cloudflare](https://skillicons.dev/icons?i=cloudflare)](https://www.cloudflare.com/)
 [![Jenkins](https://skillicons.dev/icons?i=jenkins)](https://www.jenkins.io/)
 [![Nginx](https://skillicons.dev/icons?i=nginx)](https://nginx.org/)
-[![Git](https://skillicons.dev/icons?i=sonarqube)](https://sonarsource.com/)
+[![SonarQube](https://img.shields.io/badge/-SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)](https://www.sonarsource.com/)
 [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/)
 
 **Ferramentas & Banco de Dados**
