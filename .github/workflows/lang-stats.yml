@@ -18,7 +18,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=nalpsa&layout=donut&theme=tokyonight&langs_count=20&locale=pt-br
+          options: username=nalpsa&layout=donut&theme=tokyonight&langs_count=10&locale=pt-br
           path: stats/top-langs-donut.svg
           token: ${{ secrets.GH_TOKEN }}
 
