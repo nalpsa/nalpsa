@@ -2,7 +2,7 @@ name: Update README Stats
 
 on:
   schedule:
-    - cron: "30 6 * * *" # Roda todo dia às 03:30 BRT
+    - cron: "30 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,7 +18,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=nalpsa&show_icons=true&theme=tokyonight&count_private=true&locale=pt-br
+          options: username=nalpsa&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&locale=pt-br
           path: profile/stats.svg
           token: ${{ secrets.GH_TOKEN }}
 
