@@ -22,12 +22,22 @@ jobs:
           exclude_languages: "Markdown"
           dark_mode: "true"
 
+      - name: Debug - list files
+        run: |
+          echo "=== Workspace root ==="
+          ls -la
+          echo "=== Stats folder ==="
+          ls -la stats/ || echo "stats/ not found"
+          echo "=== Git status ==="
+          git status
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add stats/ -f
-          git commit -m "chore: update lang stats" || exit 0
-          git push
+          git add -A
+          git status
+          git commit -m "chore: update lang stats" || echo "Nothing to commit"
+          git push || echo "Nothing to push"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
