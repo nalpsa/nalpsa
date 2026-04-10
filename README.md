@@ -42,6 +42,7 @@ Lidero a TI da **MPCN Projetos e Contabilidade**, cuidando de toda infraestrutur
 **Ferramentas & Banco de Dados**
 
 [![VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/)
+[![MySQL](https://skillicons.dev/icons?i=postman)](https://www.postman.com/)
 [![MySQL](https://skillicons.dev/icons?i=mysql)](https://www.mysql.com/)
 [![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://www.postgresql.org/)
 [![SQLite](https://skillicons.dev/icons?i=sqlite)](https://www.sqlite.org/)
