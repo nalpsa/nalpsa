@@ -25,7 +25,7 @@ Lidero a TI da **MPCN Projetos e Contabilidade**, cuidando de toda infraestrutur
 [![.NET](https://skillicons.dev/icons?i=dotnet)](https://dotnet.microsoft.com/)
 [![JavaScript](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://skillicons.dev/icons?i=ts)](https://www.typescriptlang.org/)
-[![HTML](https://skillicons.dev/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![HTML](https://skillicons.dev/icons?i=python)](https://python.org)
 [![CSS](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 **Infraestrutura & DevOps**
